@@ -48,11 +48,21 @@ basic.forever(function () {
     if (Lives_ <= 0) {
         State = 1
         while (State != 0) {
-            basic.showIcon(IconNames.Sad)
-            basic.pause(1000)
-            basic.showString("GG! ")
-            basic.pause(1000)
-            basic.showString("Press A+B to restart!")
+            if (State == 1) {
+                basic.showIcon(IconNames.Sad)
+            }
+            if (true) {
+                basic.pause(1000)
+            }
+            if (true) {
+                basic.showString("GG! ")
+            }
+            if (true) {
+                basic.pause(1000)
+            }
+            if (true) {
+                basic.showString("Press A+B to restart!")
+            }
         }
     }
 })
