@@ -51,16 +51,16 @@ basic.forever(function () {
             if (State == 1) {
                 basic.showIcon(IconNames.Sad)
             }
-            if (true) {
+            if (State == 1) {
                 basic.pause(1000)
             }
-            if (true) {
+            if (State == 1) {
                 basic.showString("GG! ")
             }
-            if (true) {
+            if (State == 1) {
                 basic.pause(1000)
             }
-            if (true) {
+            if (State == 1) {
                 basic.showString("Press A+B to restart!")
             }
         }
