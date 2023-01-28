@@ -51,6 +51,8 @@ basic.forever(function () {
             basic.showIcon(IconNames.Sad)
             basic.pause(1000)
             basic.showString("GG! ")
+            basic.pause(1000)
+            basic.showString("Press A+B to restart!")
         }
     }
 })
