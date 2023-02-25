@@ -37,6 +37,7 @@ input.onButtonPressed(Button.AB, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
+    basic.showNumber(Lives_)
     Lives_ += -1
     basic.showNumber(Lives_)
 })
